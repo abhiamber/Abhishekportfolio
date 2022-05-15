@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+ background-color:rgb(224, 222, 222);
+ /*width: 15vw;
+ */font-family: 'Radio Canada', sans-serif;
+ height: 100vh;
+ transition: transform 0.3s ease-in;
+ position: absolute;
+ -webkit-transition: transform 0.3s ease-in;
+ -moz-transition: transform 0.3s ease-in;
+ -ms-transition: transform 0.3s ease-in;
+ -o-transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color:green; */
+    height: 57vh;
+    width: 80vw;
+    margin: 128px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 40px;
+}
+
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+
+
+
+
+.about{
+    font-size: 30px;
+}
+.buttons{
+    margin-top:15px;
+}
+.btn{
+    padding: 5px 8px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.btn-sm{
+    font-size: 25px;
+    padding: 4px 25px;
+}
+
+.devpic img{
+    padding-top: 5px;
+    height: 55vh;
+    border-radius: 30px;
+    border: 5px transparent;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.contactform{
+    font-family: 'Radio Canada', sans-serif;
+    padding: 0 55px;
+   
+    padding-top: 100px;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 30vw;
+    border-radius: 5px;
+    /*margin: 3px 0;
+    */margin-top: 5px;
+    padding: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.blogitem{
+margin: 20px;
+font-weight: lighter;
+font-family: 'Radio Canada', sans-serif;
+}
+.blogcontainer h1{
+    margin: 23px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.blogitem .btn-sm{
+    font-size: 15px;
+    padding: 2px 5px;
+
+}
+ .introbox h1{
+     margin: 20px;
+     font-family: 'Radio Canada', sans-serif;
+
+ }
+ .introbox h2{
+     margin: 10px;
+     font-family: 'Radio Canada', sans-serif;
+ }
+ .introbox p{
+     margin: 12px ;
+     font-family: 'Radio Canada', sans-serif;
+ }
+ .skill{
+     width: 25px;
+     height: 25px;
+     background-color: red;
+     font-family: 'Radio Canada', sans-serif;
+ }
+.projectcontainer h1{
+    padding: 30px 0;
+    font-size: 50px;
+    text-align: center;
+    color: #6b7280;
+    color: var(--dark-gray);
+    font-family: 'Radio Canada', sans-serif;
+}
+.projectitem{
+    /* text-decoration: none ; */
+    padding: 10px 25px;
+    font-family: 'Radio Canada', sans-serif;
+    
+}
+.projectitem h2{
+    margin: 5px 0;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.projectitem a {
+    /* padding: 7px  ; */
+    margin-top: 5px;
+}
+.projectitem p{
+    padding: 8px 0;
+    font-size: 20px;
+}
+.projectitem a{
+    border: 2px solid rgb(82, 79, 79);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 2px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.projectitem a:hover{
+background-color: white;
+color: dodgerblue;
+}
+
+
+
+.sidebarGo{
+    transform: translate(-443px,0);
+    position: absolute;
+    -webkit-transform: translate(-443px,0);
+    -moz-transform: translate(-443px,0);
+    -ms-transform: translate(-443px,0);
+    -o-transform: translate(-443px,0);
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.burg{
+margin-left: 140px;
+}
+
+
+
+@media( max-width:1075px){
+    /* .sidebar{
+        transform: translate(-443px,0);
+        .position: absolute;
+        -webkit-transform: translate(-443px,0);
+        -moz-transform: translate(-443px,0);
+        -ms-transform: translate(-443px,0);
+        -o-transform: translate(-443px,0);
+} */
+.devpic{
+    display: none;
+}
+.burg{
+    margin-left: 16px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

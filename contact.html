@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Amber, Web devlouper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        
+        <nav>
+          <ul>
+            <li><a href="/"> Home </a></li>
+            <li><a href="/intro.html">My Intro </a></li>
+            <li><a href="/project.html"> Project </a></li>
+            <li><a href="/blog.html"> Blog </a></li>
+            <li><a href="/contact.html"> Contact Me </a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="hamburger">
+            <span class="ham">Open</span>
+            <span class="burg">Close</span>
+            
+          </div>
+        <div class="contactform">
+          <form>
+            <div class="mb-4">
+              <label for="clientemail" class="form-label">Email address:</label>
+              <input type="email" class="form-control"id="clientemail"aria-describedby="emailHelp"/>
+              <!-- <div id="emailHelp" class="form-text">We'll never share your email & Mobile with anyone else.</div> -->
+            </div>
+            <div class="mb-4">
+              <label for="clientname" class="form-label">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="clientnname"/>
+              
+              <!-- <div id="emailHelp" class="form-text">We'll never share your email & Mobile with anyone else.</div> -->
+            </div>
+            <div class="mb-4">
+              <label for="clientmobile" class="form-label">Mobile Number:</label>
+              <input type="number " class="form-control" id="clientmobile" />
+            </div>
+
+            <div class="mb-4">
+              <label for="clientmessage" class="form-label">Message:</label>
+              <input type="textarea " class="form-control" id="clientmessage" />
+            </div>
+            <!-- <div class="mb-3 form-check"> -->
+            <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+            <!-- </div> -->
+            <button type="submit" class="btn btn-sm">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
