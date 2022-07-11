@@ -142,22 +142,33 @@ font-family: 'Radio Canada', sans-serif;
 
 }
  .introbox h1{
-     margin: 20px;
+    
+     text-align: center;
      font-family: 'Radio Canada', sans-serif;
 
  }
  .introbox h2{
-     margin: 10px;
+    text-align: center;
+     /* margin: 20px; */
+     /* margin-left: 40px; */
      font-family: 'Radio Canada', sans-serif;
  }
- .introbox p{
-     margin: 12px ;
+ .introbox h3{
+   
+     margin: 20px ;
+     margin-left: 40px;
      font-family: 'Radio Canada', sans-serif;
  }
- .skill{
-     width: 25px;
-     height: 25px;
-     background-color: red;
+ .skillcontainer{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+/* text-align: center; */
+font-size: 20px;
+font-weight: bold;
+   
+    
      font-family: 'Radio Canada', sans-serif;
  }
 .projectcontainer h1{
